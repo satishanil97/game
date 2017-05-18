@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+    <script src="game.js"></script>
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "game.css" />
+  </head>
+  <body ng-app>
+    <h1>Mind Game</h1>
+    <p>Player-1 : red</p>
+    <p>Player-2 : yellow</p>
+    <div id="player">Player-1's turn</div>
+    <div class="container col-md-12 col-sm-12 col-xs-12">
+      <div class="row col-md-12 col-sm-12 col-xs-12">
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="0" onclick="holderClick('0')"></div>
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="1" onclick="holderClick('1')"></div>
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="2" onclick="holderClick('2')"></div>
+      </div>
+
+      <div class="row col-md-12 col-sm-12 col-xs-12">
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="3" onclick="holderClick('3')"></div>
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="4" onclick="holderClick('4')"></div>
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="5" onclick="holderClick('5')"></div>
+      </div>
+
+      <div class="row col-md-12 col-sm-12 col-xs-12">
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="6" onclick="holderClick('6')"></div>
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="7" onclick="holderClick('7')"></div>
+        <div class="holder col-md-4 col-sm-4 col-xs-4" id="8" onclick="holderClick('8')"></div>
+      </div>
+    </div>
+  </body>
+</html>
