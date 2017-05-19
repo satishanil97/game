@@ -31,16 +31,15 @@ h1 {
 }
 
 .row {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 10px;
   height: 33.33%;
   width: 100%;
 }
 
 .holder {
-  display: inline;
-  position: relative;
+  display: inline-block;
   background-color: white;
   border-radius: 50%;
   border: 2px solid black;
