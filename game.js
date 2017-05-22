@@ -255,7 +255,6 @@ function holderClick(id) {
       }
 
       $('#' + selected.id).appendTo('#' + id);
-      checkWinner();
       selected = null;
       if(chance == 1){
         document.getElementById("player").innerHTML = "Player-2\'s turn";
@@ -268,6 +267,8 @@ function holderClick(id) {
         chance = 1;
         document.getElementById(coinId).style.background = "yellow";
       }
+
+      checkWinner();
       return;
     }
 
